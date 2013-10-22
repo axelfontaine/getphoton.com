@@ -4,7 +4,7 @@
 body {
 	/* Change the background image here  */
 	background: url('../img/bg1.jpg') #000 top center fixed no-repeat;
-	background-size:150%;
+	background-size:250%;
 	font-family:'Open Sans',sans-serif;
 }
 
@@ -72,6 +72,7 @@ h2 {
     font-size: 28px;
     font-weight: 300;
     padding: 15px 0 50px;
+    line-height: 35px;
 }
 
 #about {
@@ -251,7 +252,7 @@ h2 {
 	body {
 		padding-right:0;
 		padding-left:0;
-		background-size:250%;
+		background-size:300%;
 	}
 	
 	#intro {
@@ -263,15 +264,19 @@ h2 {
 	body {
 		padding-right:0;
 		padding-left:0;
-		background-size:330%;
+		background-size:500%;
 	}
 	
 }
 
 @media (max-width: 480px) {
 	body {
-		background-size:420%;
+		background-size:800%;
 	}
+
+    h1 {
+        font-size: 72px;
+    }
 
 }
 
@@ -360,4 +365,11 @@ h2 {
 
 .large-icon {
     font-size: 120px;
+}
+
+#screencast {
+    left: 50%;
+    margin-left: -427px;
+    margin-bottom: 40px;
+    position: relative;
 }
